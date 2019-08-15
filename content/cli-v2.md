@@ -819,7 +819,7 @@ See [CPI config](cpi-config.md).
 
 #### Deploy {: #deploy }
 
-- `bosh -e my-env -d my-dep deploy manifest.yml [-v ...] [-o ...]`
+- `bosh -e my-env -d my-dep deploy manifest.yml [-v ...] [-o ...] [--fix]`
 
     Create or update specified deployment according to the provided manifest. Operation files and variables can be provided to adjust and fill in manifest before deploy begins.
 
